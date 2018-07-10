@@ -1,0 +1,247 @@
+﻿body {
+    width:100%;
+    height:100%;
+}
+
+header {
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#top {
+    padding: 150px;
+    margin: auto;
+    font-family: 'Wendy One', sans-serif;
+    color:#191970;
+}
+
+span.name {
+    color:#DD3377;
+    font-family: 'Wendy One', sans-serif;
+}
+
+span.student {
+    font-size: 20px;
+    color: #1660FF;
+    font-family: 'Josefin Sans', sans-serif
+}
+
+span.webdev {
+    font-size: 20px;
+    color: #DC143C;
+    font-family: 'Josefin Sans', sans-serif
+}
+
+span.dsfreak {
+    font-size: 20px;
+    color: #ffff00;
+    font-family: 'Josefin Sans', sans-serif
+}
+
+#mainNav {
+    width:100%;
+    font-size:18px;
+    font-weight: bolder;
+    font-family: Montserrat;
+    border-color: rgba(34, 34, 34, 0.05); 
+    background-color: #ffffff;
+}
+
+.coverimg {
+    background: linear-gradient(rgba(50,50,50,.5), rgba(150,150,150,.5)), url("../img/bodybg.png");
+    width: 100%;
+    height:600px;
+    background-size: cover;
+    background-position: relative;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 100px;
+}
+
+.service-box {
+    max-width: 200px;
+    margin: 50px auto 0;
+}
+
+#html, #css, #bs {
+    width: 70%;
+}
+
+#js, #py {
+    width: 50%;
+}
+
+hr {
+    max-width: 50px;
+    border-width: 20px; 
+}
+
+hr.light {
+    border-color: white;
+}
+
+hr.dark {
+    border-color: #0000ff;
+}
+
+.pad-up {
+    padding-top: 30px;
+}
+
+a {
+    color: #0000ff;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+a:focus,
+a:hover {
+    color: #06d7ff;
+}
+
+p {
+    color: lightgray;
+    font-family: Prosto One;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.bg-primary {
+    background-color: #06d7d9 !important;
+}
+
+.bg-dark {
+    color: white;
+    background-color: #222222 !important;
+}
+
+section {
+    padding: 100px ;
+    margin: auto;
+}
+
+.section-heading { 
+    font-family: Acme;
+    margin-top: 0;
+}
+
+.progress {
+    width:200px;
+}
+
+.fa-angle-double-down {
+    vertical-align: 8%;
+}
+
+a.btn {
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.btn-primary {
+    color: white;
+    border-color: #06d7d9;
+    background-color: #06d7d9;
+}
+
+.btn-default {
+    color: #222222;
+    border-color: white;
+    background-color: white;
+ 
+}
+
+.btn-xl {
+    padding: 15px 30px;
+}
+
+.devicons {
+    font-size: 5rem;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#projects {
+    background:#09a5aa;
+}
+
+#portfolio {
+    max-width: 600px;
+    margin: auto;
+    padding: 60px;
+}
+
+#contactme {
+     background: #2B2E4A; 
+}
+
+#contactform {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+button {
+    color: lightgrey;
+    background: rgba(34, 34, 34, 0.0);
+    border: 3px solid #db4d57;
+    height: 60px;
+    width: 150px;
+    float: right;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: ease-in-out 0.25s;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #db4d57;
+    color: lightgrey;
+}
+
+#footer {
+    background: #ffffff;
+    color: #55606A;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.icon-btn {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    text-indent: 20px;
+    color: black;
+}
+
+.twitter-icn:hover {
+    color: #48c4d2;
+}
+
+.facebook-icn:hover {
+    color: #3b599f;
+}
+
+.linkedin-icn:hover {
+    color: rgba(14, 80, 162, 0.9);
+}
+
+.instagram-icn:hover {
+    color: #cc0714;
+}
