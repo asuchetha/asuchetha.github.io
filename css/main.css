@@ -245,3 +245,12 @@ button:hover {
 .instagram-icn:hover {
     color: #cc0714;
 }
+
+p.foot {
+    font-size: 12px;
+    color: #282828;
+}
+
+i.heart {
+    color: #FF0033;
+}
